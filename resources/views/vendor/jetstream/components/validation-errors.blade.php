@@ -1,11 +1,10 @@
 @if ($errors->any())
-    <div {!! $attributes->merge(['class' => 'alert alert-danger text-sm p-2']) !!} role="alert">
-        <div class="font-weight-bold">{{ __('Whoops! Something went wrong.') }}</div>
+    <div {!! $attributes->merge(['class' => 'alert alert-danger-custom text-sm p-2']) !!} role="alert">
+        <div class="font-weight-bold">{{ __('Something went wrong') }}</div>
 
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
+        @foreach ($errors->all() as $error)
+            <p>{{ $error }}</p>
+        @endforeach
+
     </div>
 @endif
