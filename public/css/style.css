@@ -53,6 +53,15 @@ body{
 
 }
 
+/* !!------------------------------------------Register page */
+.register-form-custom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 80vh;
+    margin-inline: auto;
+}
 
 
 
