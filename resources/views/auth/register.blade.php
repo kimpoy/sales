@@ -1,7 +1,7 @@
 <x-guest-layout>
     <div class="register-form-custom">
         <h3 class="mb-5 font-weight-bold">Registration</h3>
-        <x-jet-validation-errors class="mb-3" />
+        <x-jet-validation-errors />
 
         <form method="POST" action="{{ route('register') }}">
             @csrf

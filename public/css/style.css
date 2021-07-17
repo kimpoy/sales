@@ -64,6 +64,16 @@ body{
 }
 
 
+.forgot-password-form-custom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 70vh;
+    margin-inline: auto;
+}
+
+
 
 
 
@@ -126,8 +136,7 @@ body{
 }
 
 .alert-success-custom{
-    background: var(--background-success);
-    color: var(--color-white);
+    color: var(--background-success);
 }
 
 .h-100-custom{

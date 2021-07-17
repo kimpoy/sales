@@ -11,8 +11,9 @@
             </div>
 
             <div class="login-form-custom">
-                <x-jet-validation-errors class="mb-3 rounded-0" />
+
                 <h3 class="mb-5 font-weight-bold">Login to Sales</h3>
+                <x-jet-validation-errors />
                 @if (session('status'))
                     <div class="alert alert-success mb-3 rounded-0" role="alert">
                         {{ session('status') }}
