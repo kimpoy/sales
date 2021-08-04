@@ -15,7 +15,7 @@
                 <h3 class="mb-5 font-weight-bold">Login to Sales</h3>
                 <x-jet-validation-errors />
                 @if (session('status'))
-                    <div class="alert alert-success mb-3 rounded-0" role="alert">
+                    <div class="alert-success-custom" role="alert">
                         {{ session('status') }}
                     </div>
                 @endif
